@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lightblue"
+    android:gravity="center_horizontal"
+    android:id="@+id/layout"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btngeritus2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:background="@drawable/geritus"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtzaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/darkblue"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txtdsayisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 "
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/ "
+                android:textColor="@color/darkblue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txtysayisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txtSayi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="12"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtoperation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="x"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSayi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etSonuc"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:selectAllOnFocus="false"
+
+            android:singleLine="false"
+            android:text=""
+            android:textColor="@color/yellow"
+            android:textSize="45sp"
+            android:textStyle="bold"></EditText>
+
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/animations"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_fileName="data.json"
+        ></com.airbnb.lottie.LottieAnimationView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/animations2"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_fileName="data2.json"
+        ></com.airbnb.lottie.LottieAnimationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCevapla"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ripple_darkblue"
+            android:onClick="onClick"
+            android:text="@string/btn_cevapla"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

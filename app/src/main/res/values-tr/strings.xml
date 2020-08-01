@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">4 İşlem ile Matematik</string>
+    <string name="btn_bolme">BÖLME</string>
+    <string name="btn_carpma">ÇARPMA</string>
+    <string name="btn_cevapla">CEVAPLA</string>
+    <string name="btn_cikarma">ÇIKARMA</string>
+    <string name="btn_ct">Çarpım Tablosu</string>
+    <string name="btn_ct_egzersiz">Çarpım Tablosu(Egzersiz)</string>
+    <string name="btn_dogruyanlis">Doğru - Yanlış</string>
+    <string name="btn_dortislem">Dört İşlem</string>
+    <string name="btn_egzersiz">Egzersiz Yap</string>
+    <string name="btn_geridon">Geri Dön</string>
+    <string name="btn_ikioyunculu">İki Oyunculu</string>
+    <string name="btn_karisik">KARIŞIK</string>
+    <string name="btn_toplama">TOPLAMA</string>
+    <string name="txt_baslik">4 İŞLEM İLE MATEMATİK</string>
+    <string name="txt_baslik_2">EGZERSİZ YAP</string>
+    <string name="txt_baslik_3">DÖRT İŞLEM</string>
+    <string name="txt_baslik_4">PUAN TABLOSU</string>
+    <string name="txt_baslik_5">ÇARPIM TABLOSU</string>
+    <string name="txt_dogru">"Doğru:   "</string>
+    <string name="txt_yanlis">"Yanlış:   "</string>
+    <string name="txt_puan">"Puan:   "</string>
+    <string name="txt_net">"Net:  "</string>
+    <string name="txt_kazandiniz">KAZANDINIZ :)</string>
+    <string name="txt_kaybettiniz">KAYBETTİNİZ :(</string>
+    <string name="evet">EVET</string>
+    <string name="hayır">HAYIR</string>
+    <string name="cikis_bilgi">Uygulamayı kapatmak istiyor musunuz?</string>
+    <string name="oyver">Uygulamaya Oy Ver :)</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/layout"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btngeritus"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/geritus"
+        android:onClick="onClick"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:id="@+id/txtbaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/txt_baslik_3"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"></TextView>
+
+    <Button
+        android:id="@+id/btntoplama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtbaslik"
+        android:background="@drawable/ripple_darkblue"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_toplama"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btncikarma"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntoplama"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_darkblue"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_cikarma"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btncarpma"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncikarma"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_darkblue"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_carpma"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnbolme"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncarpma"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_darkblue"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_bolme"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnkarisik"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbolme"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ripple_darkblue"
+        android:hapticFeedbackEnabled="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/btn_karisik"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottombanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        android:foregroundGravity="bottom"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-6491185507594357/7048417716" />
+
+
+</RelativeLayout>

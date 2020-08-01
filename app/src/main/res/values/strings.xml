@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Math With 4 Operations</string>
+    <string name="txt_baslik">Math With 4 Operations</string>
+    <string name="btn_ct">Multiplication Tables</string>
+    <string name="btn_egzersiz">Do Exercises</string>
+    <string name="txt_baslik_2">DO EXERCISES</string>
+    <string name="btn_ct_egzersiz">Multiplication Tables(Exercises)</string>
+    <string name="btn_dortislem">Four Operations</string>
+    <string name="btn_dogruyanlis">True - False</string>
+    <string name="btn_ikioyunculu">Two Players</string>
+    <string name="txt_baslik_3">FOUR OPERATİONS</string>
+    <string name="btn_toplama">ADDITION</string>
+    <string name="btn_cikarma">SUBTRACTION</string>
+    <string name="btn_carpma">MULTIPLICATION</string>
+    <string name="btn_bolme">DIVISION</string>
+    <string name="btn_karisik">MIXED</string>
+    <string name="txt_baslik_4">SCOREBOARD</string>
+    <string name="txt_dogru">True:   </string>
+    <string name="txt_yanlis">False:   </string>
+    <string name="txt_puan">Point:   </string>
+    <string name="txt_net">Net:  </string>
+    <string name="btn_geridon">Turn back</string>
+    <string name="txt_kazandiniz">WINNER :)</string>
+    <string name="txt_kaybettiniz">LOSER :(</string>
+    <string name="btn_cevapla">REPLY</string>
+    <string name="txt_baslik_5">MULTIPLICATION TABLES</string>
+    <string name="evet">YES</string>
+    <string name="hayır">NO</string>
+    <string name="cikis_bilgi">Do you want to close the application?</string>
+    <string name="oyver">Rate the app :)</string>
+
+</resources>

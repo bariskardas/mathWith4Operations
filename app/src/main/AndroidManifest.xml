@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baron.mathWith4Operations">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6491185507594357~7814704476" />
+
+        <activity android:name="com.baron.mathWith4Operations.Denemeler"></activity>
+        <activity android:name="com.baron.mathWith4Operations.K2Activity" />
+        <activity android:name="com.baron.mathWith4Operations.K1Activity" >
+
+        </activity>
+        <activity android:name="com.baron.mathWith4Operations.ikioyunculuActivity" />
+        <activity android:name="com.baron.mathWith4Operations.KarisikActivity" />
+        <activity android:name="com.baron.mathWith4Operations.BolmeActivity" />
+        <activity android:name="com.baron.mathWith4Operations.CarpmaActivity" />
+        <activity android:name="com.baron.mathWith4Operations.CikarmaActivity" />
+        <activity android:name="com.baron.mathWith4Operations.ToplamaActivity" />
+        <activity android:name="com.baron.mathWith4Operations.CtSonucActivity" />
+        <activity android:name="com.baron.mathWith4Operations.SplashActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name="com.baron.mathWith4Operations.DogruYanlisActivity" />
+        <activity android:name="com.baron.mathWith4Operations.DortislemActivity" />
+        <activity android:name="com.baron.mathWith4Operations.CTEgzersizActivity" />
+        <activity android:name="com.baron.mathWith4Operations.EgzersizActivity" />
+        <activity android:name="com.baron.mathWith4Operations.ctActivity" />
+        <activity android:name="com.baron.mathWith4Operations.MainActivity" />
+
+    </application>
+
+</manifest>

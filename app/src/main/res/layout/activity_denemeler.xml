@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogruYanlisActivity"
+    android:layout_gravity="center_horizontal"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btngeritus2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:hapticFeedbackEnabled="true"
+        android:background="@drawable/geritus"
+        android:layout_gravity="left"
+        android:onClick="onClick"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout5"
+        android:layout_width="410dp"
+        android:layout_height="97dp"
+        android:background="@color/darkblue"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btndogru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/txtSayi1"
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="3 x 5 = 15"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnyanlis"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:background="@drawable/yanlis"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btndogru"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btndogru"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:background="@drawable/dogru"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnyanlis"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938">
+
+    </Button>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="404dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        android:gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngeritus2">
+
+        <TextView
+            android:id="@+id/txtdsayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 "
+            android:textColor="@color/green"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/ "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtysayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtzaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textColor="@color/darkblue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

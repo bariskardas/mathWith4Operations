@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="top"
+        android:background="@color/red"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:rotation="180"
+        android:text="@string/txt_kaybettiniz"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+
+        android:id="@+id/btngeridon"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ripple_darkblue"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingHorizontal="10dp"
+        android:text="@string/btn_geridon"
+
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="bottom"
+        android:background="@color/green"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:text="@string/txt_kazandiniz"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

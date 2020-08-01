@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gradient_list"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/layout"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtbaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btnCarpimtablosu"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbaslik"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/ripple_green"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_ct"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnEgzersizYap"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCarpimtablosu"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/ripple_lightblue"
+        android:hapticFeedbackEnabled="true"
+        android:onClick="onClick"
+        android:text="@string/btn_egzersiz"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btnoyver"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEgzersizYap"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/ripple_yellow"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/oyver"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottombanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-6491185507594357/7048417716" />
+
+</RelativeLayout>
