@@ -1,4 +1,10 @@
-# **Math with 4 Operations**
+# Math with 4 Operations
+
+It is created for people who want to do math exercises with 4 operations.This application is generally used as a useful tool to develop and practice the 4 required processing skills for primary school.
+
+Bu uygulama genel olarak ilköğretim okulu okuyan öğrencilerin 4 işlem becerisini geliştirmesi ve pratik yapması için geliştirilmiş faydalı bir uygulamadır.
+
+İçerisinde etkinlik ve pratik yapacağınız bölümler bulunan uygulamada hem eğitim hem de eğlence anlamında hoşunuza gidecek birçok şey barındırıyor.
 
 https://play.google.com/store/apps/details?id=com.baron.mathWith4Operations
 
